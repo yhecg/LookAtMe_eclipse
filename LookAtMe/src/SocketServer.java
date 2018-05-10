@@ -8,7 +8,7 @@ public class SocketServer {
 	/**
 	 * serverSocket : 소켓 서버
 	 * clientSocket : 사용자가(Client) 연결되는 소켓.
-	 * port : 포터 번호.
+	 * port : 포트 번호.
 	 */
 	ServerSocket serverSocket;
 	Socket clientSocket;
