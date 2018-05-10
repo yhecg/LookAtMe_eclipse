@@ -32,7 +32,7 @@ public class SocketServer {
 		while(true){
 			try {
 				clientSocket = serverSocket.accept();
-				Client client = new Client(clientSocket);
+				Client client = new Client(clientSocket); // 하나의 사용자
 				client.start();
 			} catch (IOException e) {
 				e.printStackTrace();
